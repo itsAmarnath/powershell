@@ -1,0 +1,8 @@
+if ($PSVersionTable.PSVersion.Major -gt 4)
+{
+    Write-Output "Latest"
+}
+else
+{
+    Write-Output "Needs to update"
+}
